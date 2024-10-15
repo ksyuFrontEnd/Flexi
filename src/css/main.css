@@ -5,3 +5,14 @@
 .main {
     flex: 1 1 auto;
 }
+
+.card-img {
+    height: 250px; /* Знову ж, ви можете змінити значення */
+    overflow: hidden;
+}
+
+.card-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
