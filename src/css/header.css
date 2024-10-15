@@ -1,0 +1,63 @@
+.header__container {
+    background-color: #C0E2E2;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 70px; 
+}
+
+.navbar-brand {
+    font-size: 1.5rem; 
+}
+
+.navbar-brand img {
+    border-radius: 64% 45% 64% 36% / 43% 45% 63% 57%;
+}
+
+.navbar-nav .menu-item {
+    font-size: 44px;
+    font-weight: 700;
+    padding: 0.5rem 1rem; 
+    text-align: center; 
+}
+
+.navbar-nav .menu-item a {
+    color: #353535;
+}
+
+.navbar-nav .menu-item a:hover {
+    color: #353535;
+}
+
+@media (min-width: 992px) {
+    .logo {
+        width: 100px;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: flex-end;
+    }
+
+    .navbar-nav {
+        text-align: left; 
+    }
+
+    .navbar-nav .menu-item {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .navbar-nav .menu-item a {
+        text-decoration: none;
+    }
+
+    .navbar-nav .menu-item:hover,
+    .navbar-nav .current-menu-item {
+        background-color: hsl(0, 0%, 90%); 
+        border-radius: 50px;
+    }
+}
