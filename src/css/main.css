@@ -109,3 +109,11 @@
 .pagination a:hover {
     background-color: #065f70; 
 }
+
+/* Single-real-estate */
+@media (min-width: 992px) {
+    .single__card-img {
+        height: 600px;
+    }
+}
+

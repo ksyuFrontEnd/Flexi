@@ -82,3 +82,17 @@ function real_estate_customize_register($wp_customize) {
 }
 
 add_action('customize_register', 'real_estate_customize_register');
+
+// Choose single-real-estate template for the posts of real_estate post type
+function custom_single_template($template) {
+    if (is_singular('real_estate')) {
+        $new_template = locate_template(array('single-real-estate.php'));
+        if ($new_template) {
+            return $new_template;
+        }
+    }
+
+    return $template;
+}
+
+add_filter('template_include', 'custom_single_template');
