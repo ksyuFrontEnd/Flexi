@@ -44,6 +44,10 @@
     width: 100%;
     height: 100%;
 }
+ 
+.card-ecological {
+    background-color: #C0E2E2;
+}
 
 /* Filter */
 #real-estate-filter {
@@ -116,4 +120,3 @@
         height: 600px;
     }
 }
-
