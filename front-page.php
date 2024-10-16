@@ -2,9 +2,6 @@
 
 <main class="main">
     <div class="container">
-        <!-- <h1 class="front-page-title"><?php bloginfo('name'); ?></h1>
-        <p><?php bloginfo('description'); ?></p> -->
-
         <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             <h1><?php the_title(); ?></h1>
 

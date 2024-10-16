@@ -47,14 +47,6 @@ function flexi_it_child_theme_register_menus() {
 
 add_action('init', 'flexi_it_child_theme_register_menus');
 
-// Change excerpt length to 20 words
-function custom_excerpt_length( $length ) {
-    return 20; 
-}
-
-add_filter( 'excerpt_length', 'custom_excerpt_length' );
-
-
 // Add Real Estate Widget to customizer
 function real_estate_customize_register($wp_customize) {
     
